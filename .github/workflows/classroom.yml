@@ -22,7 +22,7 @@ jobs:
         command: "[ $(cat .github/script/STEP) -ge 1 ] || [ $(cat .github/script/STEP)
           = X ]"
         timeout: 10
-        max-score: 1
+        max-score: 5
     - name: Step 2 Add an image
       id: step-2-add-an-image
       uses: classroom-resources/autograding-command-grader@v1
