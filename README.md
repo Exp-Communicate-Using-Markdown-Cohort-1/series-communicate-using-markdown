@@ -10,6 +10,30 @@
 _Organize ideas and collaborate using Markdown, a lightweight language for text formatting._
 
 <!--
+  <<< Author notes: Start of the course >>>
+  Include start button, a note about Actions minutes,
+  and tell the learner why they should take the course.
+  Each step should be wrapped in <details>/<summary>, with an `id` set.
+  The start <details> should have `open` as well.
+  Do not use quotes on the <details> tag attributes.
+-->
+
+<details id=0 open>
+<summary><h2>Welcome</h2></summary>
+
+GitHub is about more than code. It’s a platform for software collaboration, and Markdown is one of the most important ways developers can make their communication clear and organized in issues and pull requests. This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links.
+
+- **Who is this for**: New developers, new GitHub users, and students.
+- **What you'll learn**: Use Markdown to add lists, images, and links in a comment or text file.
+- **What you'll build**: We'll update a plain text file and add Markdown formatting, and you can use this file to start your own GitHub Pages site.
+- **Prerequisites**: In this course you will work with pull requests as well as edit files. If these things aren't familiar to you, we recommend you take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) course, first!
+- **How long**: This course is five steps long and takes less than one hour to complete.
+
+Wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in this assignment repository's README.
+
+</details>
+
+<!--
   <<< Author notes: Step 1 >>>
   Choose 3-5 steps for your course.
   The first step is always the hardest, so pick something easy!
@@ -17,7 +41,7 @@ _Organize ideas and collaborate using Markdown, a lightweight language for text 
   Encourage users to open new tabs for steps!
 -->
 
-<details id=1 open>
+<details id=1>
 <summary><h2>Step 1: Add headers</h2></summary>
 
 _Welcome to "Communicate using Markdown"! :wave:_
@@ -234,7 +258,7 @@ Here's a recap of all the tasks you've accomplished in your repository:
   1. Click the **Save** button.
   1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ..." you can click on the link to see your published site.
 - Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/skills/.github/discussions)
+- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/community/discussions/categories/github-education)
 - [Take another GitHub Skills course](https://github.com/skills).
 - [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
