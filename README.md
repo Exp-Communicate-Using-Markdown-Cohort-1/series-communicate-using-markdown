@@ -17,7 +17,7 @@ _Organize ideas and collaborate using Markdown, a lightweight language for text 
   Encourage users to open new tabs for steps!
 -->
 
-<details id=1 open>
+<details id=1>
 <summary><h2>Step 1: Add headers</h2></summary>
 
 _Welcome to "Communicate using Markdown"! :wave:_
@@ -187,7 +187,7 @@ GitHub Actions went ahead and made a branch for you. So you'll need to add to th
   Define terms and link to docs.github.com.
 -->
 
-<details id=5>
+<details id=5 open>
 <summary><h2>Step 5: Merge your pull request</h2></summary>
 
 _Great job adding a task list to the file :heart:_
