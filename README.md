@@ -41,8 +41,12 @@ _Welcome to "Communicate using Markdown"! :wave:_
 #### How it looks
 
 # This is an `<h1>` header, which is the largest
+# this is also a h1 tag in md
 ## This is an `<h2>` header
+## this is h2
+
 ###### This is an `<h6>` header, which is the smallest
+###### this is h6 tag in md
 
 ### :keyboard: Activity: Edit your file with headers
 
@@ -94,6 +98,9 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 
 </details>
 
+##this is the image
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 <!--
   <<< Author notes: Step 3 >>>
   Start this step by acknowledging the previous step.
@@ -132,6 +139,8 @@ Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.gi
 1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
+
+
 
 <!--
   <<< Author notes: Step 4 >>>
@@ -186,6 +195,9 @@ GitHub Actions went ahead and made a branch for you. So you'll need to add to th
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
+- [ ] Turn on GitHub Pages
+- [ ] Outline my portfolio
+- [ ] Introduce myself to the world
 
 <details id=5>
 <summary><h2>Step 5: Merge your pull request</h2></summary>
