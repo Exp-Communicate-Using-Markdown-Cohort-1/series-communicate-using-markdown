@@ -1,0 +1,3 @@
+- [x] Communicate using Markdown
+- [x] Achieve Step 4
+- [ ] Finish the course
