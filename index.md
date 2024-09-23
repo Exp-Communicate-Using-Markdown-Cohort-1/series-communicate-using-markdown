@@ -5,3 +5,5 @@
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 - [ ] Task 1
 - [x] Task 2
+- [x] Introduction to me
+- [ ] Hey there!
