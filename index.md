@@ -8,3 +8,9 @@ function greet(name) {
 
 greet("World");
 ```
+### My Task List
+- [ ] Turn on GitHub Pages
+- [ ] Outline my portfolio
+- [ ] Introduce myself to the world
+- [x] Add a code example to the file
+- [ ] Create a task list
