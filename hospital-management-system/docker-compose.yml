@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:80" # Map host port 3000 to container port 80 (Nginx default)
+    volumes:
+      - ./frontend:/app/frontend # Mount frontend code for development (optional)
+    # depends_on:
+      # - backend # Uncomment if frontend needs backend to be up first
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "5000:5000" # Map host port 5000 to container port 5000 (backend default)
+    volumes:
+      - ./backend:/app/backend # Mount backend code for development (optional)
+    environment:
+      - NODE_ENV=development
+      # - MONGODB_URI=mongodb://mongo:27017/hospital_db # Example for DB connection
+      - PORT=5000
+    # depends_on:
+      # - mongo # Example if using a MongoDB service defined below
+
+  # mongo: # Example MongoDB service (uncomment and configure if needed)
+  #   image: mongo:latest
+  #   ports:
+  #     - "27017:27017"
+  #   volumes:
+  #     - mongo-data:/data/db # Persist database data
+
+# volumes: # Uncomment if using named volumes
+  # mongo-data:
